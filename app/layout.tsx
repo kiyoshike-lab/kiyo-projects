@@ -3,17 +3,15 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Kiyo Projects | Web Service Portfolio",
-  description:
-    "Kiyo Projects is a curated portal of digital services created to solve everyday problems.",
+  description: "Kiyoが制作したWebサービスをまとめたポートフォリオサイトです。",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
     apple: "/apple-touch-icon.svg",
   },
   openGraph: {
-    title: "Kiyo Projects",
-    description:
-      "Creating digital services that solve everyday problems.",
+    title: "Kiyo Projects | Web Service Portfolio",
+    description: "Kiyoが制作したWebサービスをまとめたポートフォリオサイトです。",
     type: "website",
   },
 };

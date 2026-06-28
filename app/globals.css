@@ -25,6 +25,13 @@
   --logo-bg: rgba(47, 143, 131, 0.06);
   --logo-line: rgba(47, 143, 131, 0.12);
   --logo-highlight: rgba(255, 255, 255, 0.9);
+  --tag-bg: rgba(47, 143, 131, 0.07);
+  --tag-line: rgba(47, 143, 131, 0.14);
+  --status-live: #24756c;
+  --status-live-bg: rgba(47, 143, 131, 0.12);
+  --status-dev: #8a7661;
+  --status-dev-bg: rgba(173, 145, 105, 0.14);
+  --disabled-bg: rgba(255, 255, 255, 0.48);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -52,6 +59,13 @@
     --logo-bg: rgba(118, 214, 200, 0.08);
     --logo-line: rgba(118, 214, 200, 0.14);
     --logo-highlight: rgba(255, 255, 255, 0.08);
+    --tag-bg: rgba(118, 214, 200, 0.1);
+    --tag-line: rgba(118, 214, 200, 0.16);
+    --status-live: #91e4d8;
+    --status-live-bg: rgba(118, 214, 200, 0.12);
+    --status-dev: #d0b993;
+    --status-dev-bg: rgba(208, 185, 147, 0.14);
+    --disabled-bg: rgba(255, 255, 255, 0.04);
   }
 }
 
