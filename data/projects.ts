@@ -59,7 +59,7 @@ export const projects: Project[] = [
     description:
       "自分に似合う服を簡単に見つけられるファッション提案サービスです。",
     url: "https://rakufu-konpasu.onrender.com",
-    image: "/logos/rakufu-konpasu.png",
+    image: "/logos/rakufuku-compass.png",
   },
   {
     name: "VocaLift",
