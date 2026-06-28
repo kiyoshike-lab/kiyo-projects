@@ -5,8 +5,8 @@ import { projects } from "@/data/projects";
 export default function Home() {
   return (
     <main className="min-h-screen overflow-hidden bg-[var(--background)] text-[var(--foreground)]">
-      <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_top,_var(--ambient),_transparent_42rem)]" />
-      <section className="relative mx-auto flex min-h-screen w-full max-w-3xl flex-col px-5 py-8 sm:px-8 sm:py-12">
+      <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_top,_var(--ambient),_transparent_44rem)]" />
+      <section className="relative mx-auto flex min-h-screen w-full max-w-4xl flex-col px-5 py-8 sm:px-8 sm:py-12">
         <header className="flex items-center justify-between gap-4">
           <Link
             href="/"
@@ -28,7 +28,7 @@ export default function Home() {
         </header>
 
         <div className="flex flex-1 flex-col justify-center py-12 sm:py-16">
-          <div className="mb-10 text-center sm:mb-12">
+          <div className="mb-11 text-center sm:mb-14">
             <p className="mb-4 text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent)]">
               Digital Service Collection
             </p>
@@ -44,7 +44,7 @@ export default function Home() {
             </p>
           </div>
 
-          <nav aria-label="Service links" className="grid gap-3 sm:gap-4">
+          <nav aria-label="Service links" className="grid gap-4 sm:gap-5">
             {projects.map((project) => (
               <ProjectLink key={project.name} project={project} />
             ))}

@@ -6,19 +6,25 @@
   --heading: #111a1a;
   --muted: #687675;
   --card: rgba(255, 255, 255, 0.86);
+  --card-sheen: rgba(238, 248, 246, 0.9);
   --card-hover: rgba(255, 255, 255, 0.98);
+  --card-sheen-hover: rgba(232, 247, 244, 0.98);
   --line: rgba(27, 55, 52, 0.1);
   --shadow: rgba(22, 43, 40, 0.08);
-  --shadow-strong: rgba(22, 43, 40, 0.12);
+  --shadow-strong: rgba(22, 43, 40, 0.14);
   --ambient: rgba(73, 151, 139, 0.16);
   --accent: #2f8f83;
+  --accent-hover: #26766d;
   --accent-soft: rgba(47, 143, 131, 0.42);
   --accent-line: rgba(47, 143, 131, 0.24);
   --accent-contrast: #ffffff;
+  --accent-shadow: rgba(47, 143, 131, 0.24);
   --mark-bg: rgba(255, 255, 255, 0.9);
   --mark-border: rgba(47, 143, 131, 0.2);
   --font-display: Georgia, "Times New Roman", "Yu Mincho", serif;
   --logo-bg: rgba(47, 143, 131, 0.06);
+  --logo-line: rgba(47, 143, 131, 0.12);
+  --logo-highlight: rgba(255, 255, 255, 0.9);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,18 +34,24 @@
     --heading: #f7fbfa;
     --muted: #98aaa7;
     --card: rgba(24, 31, 31, 0.82);
+    --card-sheen: rgba(23, 45, 42, 0.82);
     --card-hover: rgba(29, 38, 38, 0.96);
+    --card-sheen-hover: rgba(24, 54, 50, 0.96);
     --line: rgba(222, 239, 235, 0.1);
     --shadow: rgba(0, 0, 0, 0.22);
     --shadow-strong: rgba(0, 0, 0, 0.34);
     --ambient: rgba(75, 184, 169, 0.16);
     --accent: #76d6c8;
+    --accent-hover: #91e4d8;
     --accent-soft: rgba(118, 214, 200, 0.5);
     --accent-line: rgba(118, 214, 200, 0.25);
     --accent-contrast: #0c1414;
+    --accent-shadow: rgba(118, 214, 200, 0.18);
     --mark-bg: rgba(21, 29, 29, 0.9);
     --mark-border: rgba(118, 214, 200, 0.26);
     --logo-bg: rgba(118, 214, 200, 0.08);
+    --logo-line: rgba(118, 214, 200, 0.14);
+    --logo-highlight: rgba(255, 255, 255, 0.08);
   }
 }
 
