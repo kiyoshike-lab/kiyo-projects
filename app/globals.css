@@ -18,6 +18,7 @@
   --mark-bg: rgba(255, 255, 255, 0.9);
   --mark-border: rgba(47, 143, 131, 0.2);
   --font-display: Georgia, "Times New Roman", "Yu Mincho", serif;
+  --logo-bg: rgba(47, 143, 131, 0.06);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -38,6 +39,7 @@
     --accent-contrast: #0c1414;
     --mark-bg: rgba(21, 29, 29, 0.9);
     --mark-border: rgba(118, 214, 200, 0.26);
+    --logo-bg: rgba(118, 214, 200, 0.08);
   }
 }
 
