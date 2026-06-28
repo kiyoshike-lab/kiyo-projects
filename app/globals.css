@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f9fbfa;
+  --foreground: #283433;
+  --heading: #111a1a;
+  --muted: #687675;
+  --card: rgba(255, 255, 255, 0.86);
+  --card-hover: rgba(255, 255, 255, 0.98);
+  --line: rgba(27, 55, 52, 0.1);
+  --shadow: rgba(22, 43, 40, 0.08);
+  --shadow-strong: rgba(22, 43, 40, 0.12);
+  --ambient: rgba(73, 151, 139, 0.16);
+  --accent: #2f8f83;
+  --accent-soft: rgba(47, 143, 131, 0.42);
+  --accent-line: rgba(47, 143, 131, 0.24);
+  --accent-contrast: #ffffff;
+  --mark-bg: rgba(255, 255, 255, 0.9);
+  --mark-border: rgba(47, 143, 131, 0.2);
+  --font-display: Georgia, "Times New Roman", "Yu Mincho", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #101515;
+    --foreground: #dce6e4;
+    --heading: #f7fbfa;
+    --muted: #98aaa7;
+    --card: rgba(24, 31, 31, 0.82);
+    --card-hover: rgba(29, 38, 38, 0.96);
+    --line: rgba(222, 239, 235, 0.1);
+    --shadow: rgba(0, 0, 0, 0.22);
+    --shadow-strong: rgba(0, 0, 0, 0.34);
+    --ambient: rgba(75, 184, 169, 0.16);
+    --accent: #76d6c8;
+    --accent-soft: rgba(118, 214, 200, 0.5);
+    --accent-line: rgba(118, 214, 200, 0.25);
+    --accent-contrast: #0c1414;
+    --mark-bg: rgba(21, 29, 29, 0.9);
+    --mark-border: rgba(118, 214, 200, 0.26);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: Inter, "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans",
+    "Yu Gothic", sans-serif;
+  background: var(--background);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-contrast);
+}

@@ -1,0 +1,33 @@
+# dependencies
+node_modules
+
+# next.js
+.next
+out
+
+# production
+build
+
+# local env
+.env
+.env*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local caches
+.npm-cache
+.git-local
+
+# codex workspace
+.agents
+.codex
+work
+outputs
+
+# system files
+.DS_Store
+Thumbs.db
