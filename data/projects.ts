@@ -24,6 +24,14 @@ export const projects: Project[] = [
     category: "学生向け",
   },
   {
+    name: "AI就活サポート",
+    description:
+      "就活の自己分析や面接準備をサポートする、学生向けキャリア支援サービスです。",
+    url: "https://ai-job-hunting-coach-l85l.vercel.app",
+    image: "/logos/ai-job-hunting-coach.png",
+    category: "学生向け",
+  },
+  {
     name: "Wed-mini",
     description:
       "結婚式を挙げなくても、特別な思い出を残せる新しいウェディングサービスです。",
