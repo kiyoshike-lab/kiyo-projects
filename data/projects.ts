@@ -32,6 +32,14 @@ export const projects: Project[] = [
     category: "学生向け",
   },
   {
+    name: "CEO OS",
+    description:
+      "社員が全員AI。AIが社長業務を支援し、事業の成長と収益化をサポートするサービスです。",
+    url: "https://ceo-os-eight-chi.vercel.app/",
+    image: "/logos/ceo-os.png",
+    category: "AI・経営",
+  },
+  {
     name: "Wed-mini",
     description:
       "結婚式を挙げなくても、特別な思い出を残せる新しいウェディングサービスです。",
